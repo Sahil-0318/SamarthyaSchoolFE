@@ -13,7 +13,7 @@ const fetchEventList = async () => {
         let events = "";
         data.events.forEach(event => {
             events += `<div class="team-item">
-                    <img class="img-fluid w-100" src="http://localhost:3029/images/${event.eventImage}" alt="" style="height: 300px;">
+                    <img class="img-fluid w-100" src="https://samarthya-school.onrender.com/images/${event.eventImage}" alt="" style="height: 300px;">
                     <div class="bg-light text-center p-4">
                         <h5 class="mb-3">${event.eventTitle}</h5>
                         <p class="mb-2">${event.eventDescription}</p>
