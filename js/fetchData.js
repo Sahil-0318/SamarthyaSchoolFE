@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const fetchEventList = async () => {
     try {
-        const response = await fetch("http://localhost:3029/api/event");
+        const response = await fetch("https://samarthya-school.onrender.com/api/event");
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
@@ -29,7 +29,7 @@ const fetchEventList = async () => {
 
 const fetchNoticeList = async () => {
     try {
-        const response = await fetch("http://localhost:3029/api/notice");
+        const response = await fetch("https://samarthya-school.onrender.com/api/notice");
         if (!response.ok) {
             throw new Error('Network response was not ok ' + response.statusText);
         }
